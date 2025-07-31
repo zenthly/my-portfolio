@@ -1,0 +1,89 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Button for theme toggle */
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* LIGHT THEME */
+.light {
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+.light .navbar {
+  background-color: #ffffff;
+  color: #111;
+}
+
+.light .navbar a {
+  color: #111;
+}
+
+.light .toggle-btn {
+  background-color: #e0e0e0;
+  color: #111;
+}
+
+/* DARK THEME */
+.dark {
+  background-color: #121212;
+  color: #f9f9f9;
+}
+
+.dark .navbar {
+  background-color: #1e1e1e;
+  color: #f9f9f9;
+}
+
+.dark .navbar a {
+  color: #f9f9f9;
+}
+
+.dark .toggle-btn {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+/* Hero */
+.hero-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
